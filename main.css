@@ -11,6 +11,12 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+.wrapper{
+  background: url(./img/hero.png), url(./img/bottom-pic.png);
+  background-position: left top, left 7px  bottom 251px;
+  background-repeat: no-repeat, no-repeat;
+}
+
 h1, h2, h3, p{
   margin: 0;
 }
@@ -220,7 +226,7 @@ strong{
   bottom: 0;
   position: absolute;
   padding: 0 31px;
-  margin-bottom: 33px;
+  margin-bottom: 34px;
 }
 
 .news__date{
