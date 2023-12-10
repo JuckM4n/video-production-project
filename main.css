@@ -152,19 +152,25 @@ strong{
   margin-right: 27px;
   border: 5px solid #CCCCCC;
   border-radius: 5px;
+  vertical-align: middle;
 
   padding: 28px 17px 53px 18px;
 }
+
 .services__item:last-child{
   margin-right: 0;
 }
 
 .services__image{
-  height: 112px;
+  padding-top: 7px;
+  padding-left: 6px;
+}
+.sevices__image--adv{
+  margin-top: -4px;
 }
 
 .services__content{
-
+  margin-top: 24px;
   font-size: 16px;
   color: #666666;
 }
@@ -193,7 +199,7 @@ strong{
 }
 
 .services__button{
- padding-top: 29px; 
+ padding-top: 28px; 
 }
 
 .button--border{
