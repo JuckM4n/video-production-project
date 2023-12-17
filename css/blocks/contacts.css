@@ -1,0 +1,19 @@
+.contacts{
+  text-align: right;
+}
+
+.contacts__tel{
+  font-size: 26px;
+  font-weight: 400;
+  display: block;
+  margin-top: 6px;
+  margin-bottom: -4px;
+}
+
+.contacts__graph{
+  font-size: 13px;
+}
+
+.contacts__graph:hover{
+  color: #FF3D00;
+}

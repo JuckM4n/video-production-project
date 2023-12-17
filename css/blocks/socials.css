@@ -1,0 +1,22 @@
+.socials{
+  margin-right: 74px;
+}
+
+.socials__item{
+  display: inline-block;
+  padding-right: 6px;
+}
+
+.socials__item:last-child{
+  padding-right: 0;
+}
+
+.footer .menu{
+  margin-left: 118px;
+}
+
+.footer .contacts__text{
+  font-size: 11px;
+  font-weight: 400;
+  color: #9A9A9A;
+}

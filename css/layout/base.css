@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  background-color: #17191C;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1140px;
+  background: #17191C;
+}
+
+.main-page-wrapper{
+  background: url(/img/hero.png), url(/img/bottom-pic.png);
+  background-position: left top, left 7px  bottom 251px;
+  background-repeat: no-repeat, no-repeat;
+}
+
+h1, h2, h3, p{
+  margin: 0;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+address{
+  font-style: normal;
+}
+
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  background: transparent;
+  padding: 0;
+  border: 1px solid transparent;
+}
+
+strong{
+  color:#000000;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 580px;
+}
+
+.button{
+  background-color: transparent;
+  border: 2px solid #FF3D00;
+  color: #FF5500;
+
+  border-radius: 35px;
+  width: 195px;
+  height: 55px;
+
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: #FF3D00;
+  color: #fff
+}
+
+.button--size{
+  width: 168px;
+}

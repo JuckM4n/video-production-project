@@ -1,0 +1,38 @@
+.footer{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+  
+}
+
+.footer-container__section{
+  border-top: 1px solid;
+  padding-top: 10px;
+  height: 92px;
+  margin-top: 71px;
+}
+
+.footer-container{
+  margin-top: auto;
+}
+
+.footer__col{
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right{
+  align-items: flex-end;
+}
+
+/* services page */
+
+.inner-footer{
+  margin-top: auto;
+}
+
+.inner-footer__container{
+  padding: 25px 0;
+}
