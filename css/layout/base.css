@@ -25,7 +25,7 @@ body{
 }
 
 .main-page-wrapper{
-  background: url(/img/hero.png), url(/img/bottom-pic.png);
+  background: url(./img/hero.png), url(./img/bottom-pic.png);
   background-position: left top, left 7px  bottom 251px;
   background-repeat: no-repeat, no-repeat;
 }
@@ -73,6 +73,29 @@ strong{
   flex-direction: column;
   justify-content: space-between;
   min-height: 580px;
+}
+
+.top-line{
+  display: flex;
+  flex-direction: column;
+  min-height: 416px;
+  padding-bottom: 27px;
+  background: url(./img/top-line.png) right 66% top no-repeat;
+}
+
+.top-line__container{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page__title{
+  font-weight: 800;
+  font-size: 72px;
+  text-transform: uppercase;
+  line-height: 1;
 }
 
 .button{
