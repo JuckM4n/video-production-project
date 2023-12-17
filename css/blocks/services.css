@@ -93,10 +93,10 @@
 
 .service-page__content{
   flex: 1;
+  padding-top: 12px;
 }
 
 .service-page__title{
-  padding-top: 12px;
   font-size: 36px;
   font-weight: 700;
   color: #000000;
