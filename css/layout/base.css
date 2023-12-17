@@ -25,7 +25,7 @@ body{
 }
 
 .main-page-wrapper{
-  background: url(./img/hero.png), url(./img/bottom-pic.png);
+  background: url(/img/hero.png), url(/img/bottom-pic.png);
   background-position: left top, left 7px  bottom 251px;
   background-repeat: no-repeat, no-repeat;
 }
