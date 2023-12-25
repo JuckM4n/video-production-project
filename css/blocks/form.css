@@ -22,3 +22,7 @@ textarea.form__input{
 .form__row--right{
   justify-content: flex-end;
 }
+
+input[type="text"]::placeholder , textarea[name=user-text]::placeholder{
+  font-size: 18px;
+}

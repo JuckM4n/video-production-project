@@ -11,12 +11,24 @@
   padding-right: 0;
 }
 
-.footer .menu{
-  margin-left: 118px;
+.socials__icon{
+  width: 36px; height: 36px;
+  background: url(../../img/socials.png);
 }
 
-.footer .contacts__text{
-  font-size: 11px;
-  font-weight: 400;
-  color: #9A9A9A;
+.socials__icon--tg{
+  background-position-x: -10px;
+  background-position-y: -66px;
+}
+.socials__icon--vk{
+  background-position-x: -66px;
+  background-position-y: -66px;
+}
+.socials__icon--fb{
+  background-position-x: -10px;
+  background-position-y: -10px;
+}
+.socials__icon--in{
+  background-position-x: -66px;
+  background-position-y: -10px;
 }

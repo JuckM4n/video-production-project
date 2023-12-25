@@ -1,5 +1,6 @@
 .contacts{
   text-align: right;
+  position: relative;
 }
 
 .contacts__tel{
@@ -12,8 +13,8 @@
 
 .contacts__graph{
   font-size: 13px;
-  transition: color 0.3s;
-  position: relative;
+  transition: color 0.3s, text-decoration 0.3s;
+  display: inline-block;
 }
 
 .contacts__graph:hover{
@@ -24,22 +25,36 @@
 .contacts__graph:hover + .contacts__info{
   visibility: visible;
   opacity: 1;
+  left: 29px;
+  right: 0;
 }
 
 .contacts__info{
   position: absolute;
-  top: 102px;
-  right: 383px;
+  top: calc(100% + 15px);
+  right: 0;
   padding: 20px;
   border-radius: 5px;
   background-color: #fff;
   color: #1E1F20;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
-.contacts__info::before{
+ .contacts__info::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -15px;
+  height: 15px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.contacts__info::after{
+  display: block;
   position: absolute;
   bottom: 100%;
   right: 35px;
@@ -51,12 +66,19 @@
   border-top: 0px;
 }
 
-.contacts__info::after{
-  position: absolute;
-  bottom: 100%;
-  left: 0px;
-  content: "";
-  width: 100%;
-  height: 15px;
-  display: block;
+.contacts__info:hover{
+  visibility: visible;
+  opacity: 1;
+}
+
+.contacts__lunch , .contacts__worktime {
+  text-align: center;
+  font-size: 13px;
+}
+.contacts__worktime {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.contacts__lunch {
+  font-weight: 600;
 }

@@ -23,3 +23,48 @@
 .partners__link:hover{
   filter: grayscale(0);
 }
+
+.partners__icon{
+  background: url(../../img/partners.png);
+}
+
+.partners__icon--divico{
+  width: 178px;
+  height: 61px;
+  background-position: -10px -10px;
+}
+.partners__icon--ds{
+  width: 68px;
+  height: 55px;
+  background-position: -329px -163px;
+}
+.partners__icon--expotv{
+  width: 175px;
+  height: 52px;
+  background-position: -10px -91px;
+}
+.partners__icon--park{
+  width: 98px;
+  height: 73px;
+  background-position: -10px -255px;
+}
+.partners__icon--pixel{
+  width: 206px;
+  height: 39px;
+  background-position: -205px -91px;
+}
+.partners__icon--rosvideo{
+  width: 206px;
+  height: 44px;
+  background-position: -208px -10px;
+}
+.partners__icon--zavod{
+  width: 150px;
+  height: 56px;
+  background-position: -159px -163px;
+}
+.partners__icon--zvibes{
+  width: 129px;
+  height: 72px;
+  background-position: -10px -163px;
+}
