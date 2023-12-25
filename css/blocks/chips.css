@@ -1,0 +1,28 @@
+.chips{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 13px;
+  background-color: #E7E7E7;
+  transition: background-color 0.3s;
+}
+
+.chips--active{
+  background-color: #F2D4C9;
+}
+
+.chips__list input[type='checkbox']:checked + .chips{
+  background-color: #F2D4C9;
+}
+
+.chips__list input[type='checkbox']{
+  display: none;
+}
+
+.chips__list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 15px;
+}

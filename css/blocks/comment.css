@@ -1,0 +1,13 @@
+.comment{
+  padding: 68px 0;
+  background-color: #F4F5F5;
+  color: #000;
+}
+
+.comment__title{
+  margin-bottom: 51px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #202020;
+  text-transform: uppercase;
+}

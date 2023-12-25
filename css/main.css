@@ -11,7 +11,16 @@
 @import url(./blocks/paginator.css);
 @import url(./blocks/about.css);
 @import url(./blocks/socials.css);
+@import url(./blocks/reviews.css);
+@import url(./blocks/chips.css);
+@import url(./blocks/banner.css);
+@import url(./blocks/comment.css);
+@import url(./blocks/form.css);
+
 @import url(./blocks/footer.css);
+
+
+
 
 @import url(./blocks/breadcrumbs.css);
 @import url(./blocks/inner-section.css);

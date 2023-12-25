@@ -1,0 +1,28 @@
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 363px; 
+  background: url(../../img/party.png);
+  background-repeat: no-repeat;
+  background-position: right 186px center;
+  background-color: #373737;
+}
+
+.banner .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 363px; 
+}
+
+.banner__text{
+  width: 547px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner__orange-percent{
+  color: #FF5400;
+}

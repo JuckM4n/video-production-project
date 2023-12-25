@@ -1,0 +1,102 @@
+.reviews{
+  margin-top: 40px;
+  color: #000;
+}
+
+.reviews__list{
+  list-style-type: none;
+  gap: 25px;
+  columns: 2;
+}
+
+.review-card{
+  background: #F4F5F5;
+  padding: 50px 30px 25px;
+  margin-bottom: 25px;
+}
+
+.review-card__user{
+  display: flex;
+  gap: 23px;
+}
+
+.review-card__avatar{
+  width: 139px;
+  height: 139px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url(../../img/avatars.png);
+}
+
+.review-card__avatar--ivan{
+  background-position-x: -10px;
+  background-position-y: -169px;
+}
+.review-card__avatar--ekaterina
+{
+  background-position-x: -169px;
+  background-position-y: -10px;
+}
+.review-card__avatar--liza{
+  background-position-x: -169px;
+  background-position-y: -169px;
+}
+.review-card__avatar--anton{
+  background-position-x: -10px;
+  background-position-y: -10px;
+}
+
+.review-card__link{
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  text-decoration: underline 0.1em transparent;
+  transition: color 0.3s, text-decoration-color 0.3s;
+}
+
+.review-card__link:hover{
+  text-decoration-color: #2E77A4;
+  color: #2E77A4;
+}
+
+.review-card__link::after{
+  content: url(../../img/vk-blue.png);
+  margin-left: 7px;
+}
+
+.review-card__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.review-card__name{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.review-card__content{
+  margin-top: 31px;
+  margin-left: 2px;
+  line-height: 1.42;
+}
+
+.review-card__title{
+  width: 460px;
+  padding-left: 4px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #202020;
+}
+
+.review-card__review{
+  margin-top: 14px;
+  margin-bottom: 48px;
+}
+
+.review-card__date{
+  padding-top: 45px;
+  font-weight: 600;
+}

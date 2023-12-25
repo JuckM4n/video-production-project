@@ -12,8 +12,51 @@
 
 .contacts__graph{
   font-size: 13px;
+  transition: color 0.3s;
+  position: relative;
 }
 
 .contacts__graph:hover{
+  text-decoration: underline;
   color: #FF3D00;
+}
+
+.contacts__graph:hover + .contacts__info{
+  visibility: visible;
+  opacity: 1;
+}
+
+.contacts__info{
+  position: absolute;
+  top: 102px;
+  right: 383px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #1E1F20;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.contacts__info::before{
+  position: absolute;
+  bottom: 100%;
+  right: 35px;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 15px solid transparent;
+  border-bottom-color: #fff;
+  border-top: 0px;
+}
+
+.contacts__info::after{
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+  content: "";
+  width: 100%;
+  height: 15px;
+  display: block;
 }
